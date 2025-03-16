@@ -1,6 +1,6 @@
 <?php
-$client_id = "f596f33df663489d9e393c2f579a6ea1";  // Ganti dengan Client ID dari Spotify
-$client_secret = "1f385fc7a13b4855a32f8f8bd37929e3";  // Ganti dengan Client Secret dari Spotify
+$client_id = "f596f33df663489d9e393c2f579a6ea1";  
+$client_secret = "06c3b2d9080940a8a20e610ee5239f9c";  
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://accounts.spotify.com/api/token");
